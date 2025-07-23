@@ -70,4 +70,7 @@ function TimerCounter() {
   );  
 }
 
+//this is timer counter component
+//it is used to count down the time from the given input in minutes
+
 export default TimerCounter;
