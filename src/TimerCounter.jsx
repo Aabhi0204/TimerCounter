@@ -67,7 +67,7 @@ function TimerCounter() {
         <button onClick={handleRest}>Reset</button>
       </div>
     </div>
-  );
+  );  
 }
 
 export default TimerCounter;
