@@ -39,7 +39,7 @@ function TimerCounter() {
       intervalRef.current = setInterval(() => {
         setTime((prev) => prev - 1);
       }, 1000);
-    } else if (time === 0) {
+    } else if (time === 0 && isActive) {
       clearInterval(intervalRef.current);
       setActive(false);
       alert("Your time  up");
@@ -70,7 +70,6 @@ function TimerCounter() {
   );  
 }
 
-//this is timer counter component
-//it is used to count down the time from the given input in minutes
+
 
 export default TimerCounter;
